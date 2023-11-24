@@ -1,0 +1,262 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+nav .nav-item a{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+nav .nav-item a:hover{
+  background-color: black;
+  color: white;
+}
+.navbar-brand{
+}
+.nbb{
+	font-family: cursive;
+}
+.trip{
+	font-family: forte;
+	color: green;
+	font-size: 25px;
+}
+.display{
+	display: flex;
+}
+.overflow-hidden{
+    width: 100%;
+    height: 400px;
+    transition: 500ms;
+    overflow: hidden;
+    padding: 0!important ;
+
+}
+div .first{
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+	 url('../img/insp1.webp')/* center center/cover no-repeat*/;
+	 width: 100%;
+	 height: 100%;
+	 padding-top: 150px;
+}
+div .secondd{
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+	 url('../img/insp2.webp')/* center center/cover no-repeat*/;
+	 width: 100%;
+	 height: 100%;
+	 padding-top: 150px;
+}
+div .first:hover{
+	transform: scale(1.1);
+	transition: 0.5s;
+	height:380px;
+	width: 100%;
+	cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+}
+.first a{
+	text-align: center;
+	text-decoration: none;
+}
+.first a:hover{
+	text-decoration: none;
+}
+.first h5{
+	color: white;
+	margin-bottom: 40px;
+}
+.first h3{
+	color: white;
+}
+div .secondd:hover{
+	transform: scale(1.1);
+	transition: 0.5s;
+	height:380px;
+	width: 100%;
+	cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+}
+.secondd a{
+	text-align: center;
+	text-decoration: none;
+}
+.secondd a:hover{
+	text-decoration: none;
+}
+.secondd h5{
+	color: white;
+	margin-bottom: 40px;
+}
+.secondd h3{
+	color: white;
+}
+
+
+
+
+.image {
+  opacity: 1;
+  display: block;
+  width: auto;
+  height: auto;
+  transition: 1s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.cont:hover .image {
+  opacity: 1.0;
+}
+
+.cont:hover .middle {
+  opacity: 1.0;
+}
+
+.text {
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.ss{
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+	 url('../img/bg.jpg')/* center center/cover no-repeat*/;
+    width: auto;
+    height: auto;
+    margin: auto auto auto auto;
+}
+.ss h1{
+	margin-top: 95%;
+	color: white;
+	margin-bottom: 40px;
+	text-align: center;
+	font-family: monospace;
+}
+.follow{
+        text-align: center;
+        margin: auto;
+    }
+.p{
+    font-size: 30px;
+    margin-top: 3%;
+    padding: 6px;
+}
+.p a{
+    text-decoration: none;
+    color: black;
+}
+.p .facc:hover{
+	color: darkblue;
+}
+.p .twi:hover{
+	color: lightblue;
+}
+.p .inst:hover{
+	color: purple;
+}
+.p .you:hover{
+	color: #E93E4B;
+}
+.parentp{
+	display: inline-flex;
+	margin: auto;
+	text-align: center;
+}
+.parentfa{
+	display: inline-flex;
+}
+.faz{
+	color: white;
+	font-size: 30px;
+	padding: 3px;
+}
+.faz a{
+	color: white;
+	text-decoration: none;
+}
+.faz .facc:hover{
+	color: blue;
+}
+.faz .twi:hover{
+	color: lightblue;
+}
+.faz .inst:hover{
+	color: purple;
+}
+.faz .you:hover{
+	color: #E93E4B;
+}
+.faz .you:hover{
+	color: #E93E4B;
+}
+.pf{
+	color: #F5E1CE;
+}
+.two{
+/*	margin-left: 8%;
+*/	font-family: cursive;
+	text-align: center;
+}
+.two a{
+	text-decoration: none;
+	color: #F5E1CE;
+}
+.two a:hover{
+	text-decoration: none;
+	color: black;
+}
+.three{
+/*	margin-left: 8%;
+*/	font-family: cursive;
+	text-align: center;
+}
+.three a{
+	color: #F5E1CE;
+	text-decoration: none;
+}
+.three a:hover{
+	color: black;
+	text-decoration: none;
+}
+.four{
+/*	margin-left: 8%;
+*/	font-family: cursive;
+	text-align: center;
+
+}
+.four a{
+	color: #F5E1CE;
+	text-decoration: none;
+}.four a:hover{
+	color: black;
+	text-decoration: none;
+}
+.last{
+	color: #F5E1CE;
+	text-align: center;
+	font-family: cursive;
+	margin-top: 20px;
+	padding-bottom: 5px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+
+@media (max-width: 700px){
+.nbb{
+	font-size: 10px;
+}	
+}

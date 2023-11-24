@@ -1,0 +1,113 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.nl{
+  text-size-adjust: 100%;
+    list-style: none;
+    box-sizing: border-box;
+    background-color: transparent;
+    padding: 16px 15px;
+    font-family: Helvetica/*, Arial, sans-serif*/;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 1.2rem;
+    line-height: 18px;
+    position: relative;
+    display: block;
+}
+
+nav .nav-item a{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+nav .nav-item a:hover{
+  background-color: black;
+  color: white;
+}
+
+/*.bb{
+  background: white !important;
+}*/
+/*nav .navitem .navlink{
+  margin-left: 15%;
+}*/
+/*nav .navbar-nav .navitem .navlink:after{
+  content:'';
+  width:0%;
+  height:2px;
+  background:#2A7FFF;
+  display:block;
+  margin:auto;
+  transition:0.10s;
+}
+nav .navbar-nav .navitem .navlink:hover::after{
+  width:100%;
+}
+nav .navitem .navlink a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 8px;*/
+.nbb{
+  font-family: cursive;
+}
+.trip{
+  font-family: forte;
+  color: green;
+  font-size: 25px;
+}
+.himg{
+  background: linear-gradient(to bottom, rgba(255, 255, 252, 0), rgba(0, 0, 0, 1.0)),
+   url('../img/bg.jpg')/* center center/cover no-repeat*/;
+  width: 100%;
+  height: auto;
+}
+
+.himg .z{
+  color: white;
+  text-align: center;
+  padding-top: 400px;
+  padding-bottom: 70px;
+  background-position: center center;
+  background-size: cover;
+}
+.himg h1{
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 50px;
+}
+.himg h6{
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  padding: 2px 16px;
+}

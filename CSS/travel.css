@@ -1,0 +1,243 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.nl{
+	text-size-adjust: 100%;
+    list-style: none;
+    box-sizing: border-box;
+    background-color: transparent;
+    padding: 16px 15px;
+    font-family: Helvetica/*, Arial, sans-serif*/;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 1.2em;
+    line-height: 18px;
+    position: relative;
+    display: block;
+}
+
+nav .nav-item a{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+nav .nav-item a:hover{
+  background-color: black;
+  color: white;
+}
+
+/*.bb{
+	background: white !important;
+}*/
+/*nav .navitem .navlink{
+	margin-left: 15%;
+}*/
+/*nav .navbar-nav .navitem .navlink:after{
+	content:'';
+	width:0%;
+	height:2px;
+	background:#2A7FFF;
+	display:block;
+	margin:auto;
+	transition:0.10s;
+}
+nav .navbar-nav .navitem .navlink:hover::after{
+	width:100%;
+}
+nav .navitem .navlink a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 8px;*/
+.nbb{
+	font-family: cursive;
+}
+.trip{
+	font-family: forte;
+	color: green;
+	font-size: 25px;
+}
+
+.himg{
+	background: linear-gradient(to bottom, rgba(255, 255, 252, 0), rgba(0, 0, 0, 1.0)),
+	 url('../img/travel.webp') center center/cover no-repeat;
+  width: 100%;
+  height: auto;
+}
+
+.himg .z{
+	color: white;
+	text-align: center;
+	padding-top: 300px;
+}
+.himg h1{
+	color: white;
+	text-align: center;
+	margin-bottom: 70px;
+}
+.pc{
+	padding-bottom: 50px;
+  z-index: 100;
+  margin-top: -1px;
+  min-height: 100px;
+}
+.h{
+	color: black;
+  font-family: sans-serif;
+	text-align: center;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	font-size: 1.1rem;
+}
+.p{
+	color: grey;
+	font-family: cursive;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.b1{
+	margin: auto auto auto auto;
+	height: auto;
+	padding: 10px;
+	width: auto;
+}
+
+#b2{
+	width: auto;
+	height: auto;
+}
+
+.follow{
+  text-align: center;
+  margin: auto;
+    }
+.pff{
+  font-size: 30px;
+  margin-top: 3%;
+  padding: 6px;
+}
+.pff a{
+  text-decoration: none;
+  color: black;
+}
+.pff .facc:hover{
+	color: darkblue;
+}
+.pff .twi:hover{
+	color: lightblue;
+}
+.pff .inst:hover{
+	color: purple;
+}
+.pff .you:hover{
+	color: #E93E4B;
+}
+.parentp{
+	display: inline-flex;
+	margin: auto;
+	text-align: center;
+}
+.parentfa{
+	display: inline-flex;
+}
+.faz{
+	color: white;
+	font-size: 30px;
+	padding: 3px;
+}
+.faz a{
+	color: white;
+	text-decoration: none;
+}
+.faz .facc:hover{
+	color: blue;
+}
+.faz .twi:hover{
+	color: lightblue;
+}
+.faz .inst:hover{
+	color: purple;
+}
+.faz .you:hover{
+	color: #E93E4B;
+}
+.faz .you:hover{
+	color: #E93E4B;
+}
+.pf{
+	color: #F5E1CE;
+}
+.two{
+	font-family: cursive;
+	text-align: center;
+}
+.two a{
+	text-decoration: none;
+	color: #F5E1CE;
+}
+.two a:hover{
+	text-decoration: none;
+	color: black;
+}
+.three{
+/*	margin-left: 8%;
+*/	font-family: cursive;
+	text-align: center;
+}
+.three a{
+	color: #F5E1CE;
+	text-decoration: none;
+}
+.three a:hover{
+	color: black;
+	text-decoration: none;
+}
+.four{
+/*	margin-left: 8%;
+*/	font-family: cursive;
+	text-align: center;
+
+}
+.four a{
+	color: #F5E1CE;
+	text-decoration: none;
+}.four a:hover{
+	color: black;
+	text-decoration: none;
+}
+.last{
+	color: #F5E1CE;
+	text-align: center;
+	font-family: cursive;
+	margin-top: 20px;
+	padding-bottom: 5px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+@media screen and (max-width: 700px){
+	#b2{
+		width: 90%;
+		margin-bottom: 5px;
+		border-radius: 2px;
+	}
+	.himg{
+		margin-top: -40%;
+	}
+	.himg .z{
+		padding-top: 400px;
+	}
+	.bt{
+		background-color: red;
+		border-radius: 60px;
+	}
+}
